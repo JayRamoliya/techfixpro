@@ -1,7 +1,7 @@
 
 import PageHeader from "@/components/common/PageHeader";
 import TestimonialCard from "@/components/common/TestimonialCard";
-import { CheckCircle, Tool, Clock, FileText, Microscope, Award } from "lucide-react";
+import { CheckCircle, Wrench, Clock, FileText, Microscope, Award } from "lucide-react";
 
 const About = () => {
   const testimonials = [
@@ -83,7 +83,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow text-center">
               <div className="mx-auto bg-repair-100 w-16 h-16 flex items-center justify-center rounded-full text-repair-700 mb-4">
-                <Tool className="h-8 w-8" />
+                <Wrench className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Expert Technicians</h3>
               <p className="text-gray-600">
